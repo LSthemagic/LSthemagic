@@ -1,5 +1,3 @@
-Meu fi para de deixar tua conta logada no pc do senai homi
-
 # Railan Santana
 
 Olá! 👋 Eu sou Railan Santana, um entusiasta da tecnologia e desenvolvedor de sistemas em formação, atualmente cursando Sistemas de Informação no IFBA.
