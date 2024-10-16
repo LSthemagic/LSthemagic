@@ -1,9 +1,3 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-header.dark.svg" />
-    
-  </picture>
-</p>
 
 
 <div align="center">
