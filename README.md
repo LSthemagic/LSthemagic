@@ -1,4 +1,9 @@
-<img width="100%" bottom="50px" src="https://camo.githubusercontent.com/22ddb4c17d80775bdabdf56440a09265896879d85951f161a530dcae530612f2/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d303030303030266865696768743d3132302673656374696f6e3d686561646572"></img>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-header.dark.svg" />
+    <img src="profile-header.light.svg" alt="Gaurav Joshi" />
+  </picture>
+</p>
 
 
 <div align="center">
