@@ -12,7 +12,7 @@
 <div align="center">
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=LSthemagic&theme=blue-navy&hide_border=true)](https://git.io/streak-stats)
-
+[![GitHub Streak](https://streak-stats.demolab.com?user=LSthemagic&theme=blue-navy&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
 
 </div>
 
