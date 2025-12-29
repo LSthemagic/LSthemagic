@@ -53,7 +53,7 @@ Sou um desenvolvedor apaixonado por tecnologia, focado em criar soluções efici
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LSthemagic&theme=tokyo-night&hide_border=true" width="100%"/> 
+  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=LSthemagic&theme=dark)](https://git.io/streak-stats)
 </div>
 
 ---
