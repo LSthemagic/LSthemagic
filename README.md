@@ -37,21 +37,7 @@ Sou um desenvolvedor apaixonado por tecnologia, focado em criar soluções efici
 
 ---
 
-
-
-
-
-
-
-
-
-
-
 ### 📊 GitHub Stats
-
-
-
-
 
 <div align="center">
   <a href="https://github.com/LSthemagic">
@@ -73,7 +59,6 @@ Sou um desenvolvedor apaixonado por tecnologia, focado em criar soluções efici
 </div>
 
 ---
-
 
 <div align="center">
   
