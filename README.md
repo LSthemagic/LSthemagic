@@ -46,12 +46,6 @@ Sou um desenvolvedor apaixonado por tecnologia, focado em criar soluções efici
 
 <br/>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=LSthemagic&theme=tokyonight&hide_border=true" alt="streak stats"/>
-</div>
-
-<br/>
-
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=LSthemagic&theme=dark)](https://git.io/streak-stats)
 
 ---
