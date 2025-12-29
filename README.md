@@ -1,9 +1,9 @@
 <div align="center">
-  
+
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Railan%20Santana&fontSize=50&animation=fadeIn&fontAlignY=35"/>
 
   <br/>
-  
+
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=635&lines=Full+Stack+Developer;JavaScript+%7C+TypeScript+%7C+Java+%7C+Python;Always+learning+new+techs+🚀" alt="Typing SVG" />
   </a>
@@ -46,12 +46,20 @@ Sou um desenvolvedor apaixonado por tecnologia, focado em criar soluções efici
 
 <br/>
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=LSthemagic&theme=highcontrast&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=LSthemagic&theme=tokyonight&hide_border=true" alt="streak stats"/>
+</div>
+
+<br/>
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=LSthemagic&theme=dark)](https://git.io/streak-stats)
+
+
 
 ---
 
 <div align="center">
-  
+
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lansilvah14fsa@gmail.com)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/railan-santana-5810b927b/)
 
