@@ -39,18 +39,7 @@ Sou um desenvolvedor apaixonado por tecnologia, focado em criar soluções efici
 
 ### 📊 GitHub Stats
 
-<div align="center">
-  <a href="https://github.com/LSthemagic">
-    <img src="https://github-readme-stats.vercel.app/api?username=LSthemagic&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="Railan's Github Stats"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LSthemagic&layout=compact&theme=tokyonight&hide_border=true" alt="Railan's Top Languages"/>
-  </a>
-</div>
 
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=LSthemagic&theme=tokyonight&hide_border=true" alt="streak stats"/>
-</div>
 
 <br/>
 
