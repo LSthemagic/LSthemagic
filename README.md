@@ -68,12 +68,12 @@ const railan = {
 <p align="center">
   <img
     height="165"
-    src="https://github-readme-stats.vercel.app/api?username=LSthemagic&show_icons=true&hide_border=true&theme=github_dark&icon_color=89CFF0&title_color=89CFF0"
+    src="https://github-readme-stats-mu-seven-26.vercel.app/api?username=LSthemagic&show_icons=true&hide_border=true&theme=github_dark&icon_color=89CFF0&title_color=89CFF0&count_private=true"
     alt="GitHub Stats"
   />
   <img
     height="165"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=LSthemagic&layout=compact&hide_border=true&theme=github_dark&icon_color=89CFF0&title_color=89CFF0"
+    src="https://github-readme-stats-mu-seven-26.vercel.app/api/top-langs/?username=LSthemagic&layout=compact&hide_border=true&theme=github_dark&icon_color=89CFF0&title_color=89CFF0&count_private=true"
     alt="Linguagens mais usadas"
   />
 </p>
