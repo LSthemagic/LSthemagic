@@ -1,12 +1,12 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Railan%20Santana&fontColor=FFFFFF&fontAlign=50&fontAlignY=35&fontSize=56&desc=Full%20Stack%20Developer%20%7C%20Travel%20Tech%20%26%20AI&descAlign=50&descAlignY=62&animation=twinkling&color=0:0B1220,50:5CA0C6,100:89CFF0"
+    src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B1220,50:5CA0C6,100:89CFF0&text=Railan%20Santana&fontColor=FFFFFF&fontAlignY=35&fontSize=56&desc=Full%20Stack%20Developer%20|%20AI%20automation&descAlignY=50&animation=twinkling"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=18&duration=2600&pause=800&color=FFFFFF&center=true&vCenter=true&width=900&lines=Desenvolvendo+o+futuro+do+Travel+Tech+com+automa%C3%A7%C3%A3o+e+IA.;Especialista+em+integra%C3%A7%C3%B5es+complexas+(Sabre,+Omnibees).;Transformando+processos+manuais+em+fluxos+inteligentes."
+    src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=18&duration=2600&pause=800&color=FFFFFF&center=true&vCenter=true&width=900&lines=Desenvolvendo+o+futuro+do+Travel+Tech.;Especialista+em+integra%C3%A7%C3%B5es+complexas.;Transformando+processos+manuais+em+fluxos+inteligentes."
     alt="Texto animado"
   />
 </p>
@@ -18,7 +18,7 @@
   <a href="https://railansantana.vercel.app/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Portfólio-89CFF0?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
-  <a href="mailto:seu-email@exemplo.com" target="_blank" rel="noreferrer">
+  <a href="mailto:lansilvah14fsa@gmail.com" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Email-89CFF0?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/LSthemagic" target="_blank" rel="noreferrer">
@@ -38,7 +38,7 @@
 
 <ul>
   <li><b>Atuação:</b> Full Stack Developer na <b>PASS</b>, focado em <b>Node.js, Fastify e TypeScript</b>.</li>
-  <li><b>Foco Principal:</b> Soluções para <b>Travel Tech</b> (Integrações Sabre, Omnibees, CVC) e normalização de dados.</li>
+  <li><b>Foco Principal:</b> Soluções para <b>Travel Tech</b> (Integrações Hotelbeds, Omnibees, CVC) e normalização de dados.</li>
   <li><b>Especialidades:</b> Arquitetura de microsserviços, APIs REST/SOAP e otimização de performance.</li>
   <li><b>Automação & IA:</b> Criação de <b>Agentes de IA</b> e fluxos complexos com <b>n8n</b> e LLMs (OpenAI/Gemini).</li>
   <li><b>Cloud & DevOps:</b> Deploy e infraestrutura com Docker, AWS e serviços em nuvem.</li>
@@ -54,7 +54,7 @@ const railan = {
     "Node.js & Fastify (High Performance APIs)",
     "TypeScript & Clean Architecture",
     "n8n & AI Agents (Workflow Automation)",
-    "Travel APIs (Sabre, Omnibees, Hotel Providers)"
+    "Travel APIs (Hotelbeds, Omnibees, Hotel Providers)"
   ],
   missao:
     "Simplificar a complexidade do turismo através de tecnologia robusta e automação inteligente."
@@ -92,13 +92,22 @@ const railan = {
 
 <div align="center">
   <h4>💻 Core & Languages</h4>
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,python" />
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,python,java" />
 
-  <h4>🧱 Backend & Frameworks</h4>
-  <img src="https://skillicons.dev/icons?i=nestjs,express,prisma,sequelize" />
+<h4>🧱 Backend & Frameworks</h4>
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="https://img.shields.io/badge/Fastify-89CFF0?style=for-the-badge&logo=fastify&logoColor=white&labelColor=101010" alt="Fastify" />
+  <img src="https://img.shields.io/badge/Node.js-89CFF0?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=101010" alt="Node.js" />
+  <img src="https://img.shields.io/badge/TypeScript-89CFF0?style=for-the-badge&logo=typescript&logoColor=white&labelColor=101010" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Prisma-89CFF0?style=for-the-badge&logo=prisma&logoColor=white&labelColor=101010" alt="Prisma" />
+</div>
 
-  <h4>🤖 AI & Automation</h4>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,bash" />
+<h4>🤖 AI & Automation</h4>
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="https://img.shields.io/badge/n8n-89CFF0?style=for-the-badge&logo=n8n&logoColor=white&labelColor=101010" alt="n8n" />
+  <img src="https://img.shields.io/badge/OpenAI-89CFF0?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Python-89CFF0?style=for-the-badge&logo=python&logoColor=white&labelColor=101010" alt="Python" />
+</div>
 
   <h4>🗄️ Banco de dados</h4>
   <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb" />
@@ -125,7 +134,7 @@ const railan = {
   <tr>
     <td><b>Travel Tech Integrations</b></td>
     <td align="center"><b>92%</b></td>
-    <td>SOAP/REST, Sabre, Omnibees, Normalização de Dados</td>
+    <td>SOAP/REST, Hotelbeds, Omnibees, Normalização de Dados</td>
   </tr>
   <tr>
     <td><b>AI & Automation (n8n)</b></td>
@@ -155,7 +164,7 @@ const railan = {
   </tr>
   <tr>
     <td><b>Especialista em Travel Tech</b></td>
-    <td>Domínio profundo de APIs complexas do setor hoteleiro e aéreo</td>
+    <td>Domínio profundo de APIs complexas do setor hoteleiro</td>
   </tr>
   <tr>
     <td><b>Automação Inteligente</b></td>
@@ -219,7 +228,7 @@ Networking & Troca de Experiência:
 </p>
 
 <p align="center">
-  📧 <b>Email:</b> <a href="mailto:seu-email@exemplo.com">seu-email@exemplo.com</a><br>
+  📧 <b>Email:</b> <a href="mailto:lansilvah14fsa@gmail.com">lansilvah14fsa@gmail.com</a><br>
 </p>
 
 <p align="center">
