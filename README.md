@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank" rel="noreferrer">
+  <a href="https://www.linkedin.com/in/railansantana" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-5CA0C6?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://railansantana.vercel.app/" target="_blank" rel="noreferrer">
@@ -216,7 +216,7 @@ Networking & Troca de Experiência:
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank" rel="noreferrer">
+  <a href="https://www.linkedin.com/in/railansantana" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-5CA0C6?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/LSthemagic" target="_blank" rel="noreferrer">
