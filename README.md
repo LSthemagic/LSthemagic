@@ -81,7 +81,7 @@ const railan = {
 <p align="center">
   <img
     height="170"
-    src="https://github-readme-streak-stats-l1cv.vercel.app/?user=LSthemagic&theme=github-dark-blue&exclude_days=Sun%2CSat&ring=89CFF0&fire=89CFF0&currStreakLabel=89CFF0&border=89CFF0&currStreakNum=89CFF0&sideNums=89CFF0"
+    src="https://github-readme-streak-stats-l1cv.vercel.app/?user=LSthemagic&theme=github-dark-blue&exclude_days=Sun%2CSat&ring=89CFF0&fire=89CFF0&currStreakLabel=89CFF0&border=89CFF0&currStreakNum=89CFF0&sideNums=89CFF0&card_width=750"
     alt="GitHub Streak"
   />
 </p>
