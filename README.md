@@ -15,10 +15,10 @@
   <a href="https://www.linkedin.com/in/railansantana" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-5CA0C6?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://railansantana.vercel.app/" target="_blank" rel="noreferrer">
+  <a href="https://www.railansantana.dev.br/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Portfólio-89CFF0?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
-  <a href="mailto:lansilvah14fsa@gmail.com" target="_blank" rel="noreferrer">
+  <a href="mailto:railansantana.dev@gmail.com" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Email-89CFF0?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/LSthemagic" target="_blank" rel="noreferrer">
@@ -222,13 +222,13 @@ Networking & Troca de Experiência:
   <a href="https://github.com/LSthemagic" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://railansantana.vercel.app/" target="_blank" rel="noreferrer">
+  <a href="https://www.railansantana.dev.br/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Portfólio-89CFF0?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
 <p align="center">
-  📧 <b>Email:</b> <a href="mailto:lansilvah14fsa@gmail.com">lansilvah14fsa@gmail.com</a><br>
+  📧 <b>Email:</b> <a href="mailto:railansantana.dev@gmail.com">railansantana.dev@gmail.com</a><br>
 </p>
 
 <p align="center">
