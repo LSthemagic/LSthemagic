@@ -1,0 +1,11 @@
+{
+  "name": "railan-engineering-system",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "generate": "node --experimental-strip-types scripts/generate.ts",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "verify": "npm run test && npm run generate"
+  }
+}
