@@ -1,0 +1,67 @@
+name: Refresh Profile System
+
+on:
+  schedule:
+    - cron: "17 8 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - "data/profile.json"
+      - "package.json"
+      - "tsconfig.json"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-system-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install project metadata
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Generate live profile assets
+        run: npm run generate:live
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate generated profile
+        run: npm run validate
+
+      - name: Commit refreshed public telemetry
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/static assets/generated data/snapshot.json
+
+          if git diff --cached --quiet; then
+            echo "Profile system is already synchronized."
+            exit 0
+          fi
+
+          git commit -m "chore(profile): refresh generated telemetry"
+          git push

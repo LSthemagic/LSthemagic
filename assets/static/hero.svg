@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="svg-title svg-desc"><title id="svg-title">Railan Engineering System hero</title><desc id="svg-desc">Railan Santana, Full Stack Software Engineer, focused on backend systems, AI automation, and software architecture.</desc><defs>
+    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07101F"/>
+      <stop offset="52%" stop-color="#0B1628"/>
+      <stop offset="100%" stop-color="#10233A"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#28556F"/>
+      <stop offset="50%" stop-color="#5CA0C6"/>
+      <stop offset="100%" stop-color="#89CFF0"/>
+    </linearGradient>
+    <radialGradient id="ambientGlow" cx="78%" cy="45%" r="62%">
+      <stop offset="0%" stop-color="#5CA0C6" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#28556F" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#07101F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#5CA0C6" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5 H4" stroke="#FFFFFF" stroke-opacity="0.018" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter></defs><style>
+    .display { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .caps { letter-spacing: 2.4px; }
+    .muted { fill: #A9BED0; }
+    .dim { fill: #66839A; }
+    .accent { fill: #89CFF0; }
+    .line { stroke: #244663; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: center; }
+    .blink { animation: blink 1.15s steps(1) infinite; }
+    .flow { animation: flow 6s linear infinite; }
+    .float { animation: float 5s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+    @keyframes flow { from { stroke-dashoffset: 90; } to { stroke-dashoffset: 0; } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse, .blink, .flow, .float { animation: none !important; }
+    }
+  </style><rect width="1200" height="420" rx="22" fill="url(#backgroundGradient)"/><rect width="1200" height="420" rx="22" fill="url(#ambientGlow)"/><rect x="1" y="1" width="1198" height="418" rx="21" fill="none" stroke="#5CA0C6" stroke-opacity="0.28"/><rect width="1200" height="420" rx="22" fill="url(#microGrid)"/><rect width="1200" height="420" rx="22" fill="url(#scanlines)"/><g fill="none" stroke="#89CFF0" stroke-opacity="0.55" stroke-width="2">
+    <path d="M22 38V22H38"/>
+    <path d="M1162 22H1178V38"/>
+    <path d="M22 382V398H38"/>
+    <path d="M1162 398H1178V382"/>
+  </g>
+    <path class="flow" d="M38 74H1162" fill="none" stroke="url(#accentGradient)" stroke-width="2" stroke-dasharray="8 14" opacity="0.75"/>
+    <text x="58" y="54" class="mono caps" fill="#89CFF0" font-size="13" font-weight="700">RAILAN // ENGINEERING SYSTEM</text>
+    <g><rect x="1032" y="35" width="110" height="32" rx="16" fill="#75E6B5" fill-opacity="0.08" stroke="#75E6B5" stroke-opacity="0.42"/><circle class="pulse" cx="1049" cy="51" r="4" fill="#75E6B5" filter="url(#tinyGlow)"/><text x="1063" y="56" class="mono caps" fill="#A7F3D0" font-size="11" font-weight="700">ONLINE</text></g>
+    <g>
+      <text x="58" y="122" class="mono caps muted" font-size="12">IDENTITY / 001</text>
+      <text x="58" y="196" class="display" fill="#FFFFFF" font-size="64" font-weight="800">Railan Santana</text>
+      <rect x="58" y="215" width="92" height="4" rx="2" fill="url(#accentGradient)" filter="url(#softGlow)"/>
+      <text x="58" y="257" class="display" fill="#89CFF0" font-size="24" font-weight="600">Full Stack Software Engineer</text>
+      <text x="58" y="291" class="mono muted" font-size="13">FEIRA DE SANTANA, BAHIA, BRAZIL  /  BUILDING RELIABLE SYSTEMS</text>
+      <g><rect x="58" y="322" width="130" height="34" rx="8" fill="#10243B" stroke="#5CA0C6" stroke-opacity="0.32"/><text x="123" y="344" text-anchor="middle" class="mono caps" fill="#A9BED0" font-size="10">BACKEND</text></g><g><rect x="203" y="322" width="130" height="34" rx="8" fill="#10243B" stroke="#5CA0C6" stroke-opacity="0.32"/><text x="268" y="344" text-anchor="middle" class="mono caps" fill="#A9BED0" font-size="10">AI</text></g><g><rect x="348" y="322" width="130" height="34" rx="8" fill="#10243B" stroke="#5CA0C6" stroke-opacity="0.32"/><text x="413" y="344" text-anchor="middle" class="mono caps" fill="#A9BED0" font-size="10">AUTOMATION</text></g><g><rect x="493" y="322" width="130" height="34" rx="8" fill="#10243B" stroke="#5CA0C6" stroke-opacity="0.32"/><text x="558" y="344" text-anchor="middle" class="mono caps" fill="#A9BED0" font-size="10">ARCHITECTURE</text></g>
+    </g>
+    <g>
+      <rect x="790" y="106" width="360" height="266" rx="18" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/>
+      <text x="820" y="143" class="mono caps" fill="#89CFF0" font-size="12" font-weight="700">SYSTEM CORE</text>
+      <text x="1114" y="143" text-anchor="end" class="mono dim" font-size="10">SYNC 100%</text>
+      <path d="M828 165V336" stroke="#28556F" stroke-width="2"/>
+      <g class="float" style="animation-delay:0s"><circle cx="828" cy="184" r="4" fill="#89CFF0" filter="url(#tinyGlow)"/><path d="M832 184H870" stroke="#5CA0C6" stroke-opacity="0.6"/><rect x="870" y="167" width="260" height="34" rx="8" fill="#111F34" stroke="#5CA0C6" stroke-opacity="0.25"/><text x="888" y="189" class="mono" fill="#FFFFFF" font-size="13"><tspan fill="#66839A">01</tspan><tspan dx="16">Backend Systems</tspan></text></g><g class="float" style="animation-delay:0.35s"><circle cx="828" cy="232" r="4" fill="#89CFF0" filter="url(#tinyGlow)"/><path d="M832 232H870" stroke="#5CA0C6" stroke-opacity="0.6"/><rect x="870" y="215" width="260" height="34" rx="8" fill="#111F34" stroke="#5CA0C6" stroke-opacity="0.25"/><text x="888" y="237" class="mono" fill="#FFFFFF" font-size="13"><tspan fill="#66839A">02</tspan><tspan dx="16">AI Automation</tspan></text></g><g class="float" style="animation-delay:0.7s"><circle cx="828" cy="280" r="4" fill="#89CFF0" filter="url(#tinyGlow)"/><path d="M832 280H870" stroke="#5CA0C6" stroke-opacity="0.6"/><rect x="870" y="263" width="260" height="34" rx="8" fill="#111F34" stroke="#5CA0C6" stroke-opacity="0.25"/><text x="888" y="285" class="mono" fill="#FFFFFF" font-size="13"><tspan fill="#66839A">03</tspan><tspan dx="16">Software Architecture</tspan></text></g><g class="float" style="animation-delay:1.0499999999999998s"><circle cx="828" cy="328" r="4" fill="#89CFF0" filter="url(#tinyGlow)"/><path d="M832 328H870" stroke="#5CA0C6" stroke-opacity="0.6"/><rect x="870" y="311" width="260" height="34" rx="8" fill="#111F34" stroke="#5CA0C6" stroke-opacity="0.25"/><text x="888" y="333" class="mono" fill="#FFFFFF" font-size="13"><tspan fill="#66839A">04</tspan><tspan dx="16">Complex Integrations</tspan></text></g>
+      <circle cx="828" cy="165" r="7" fill="none" stroke="#89CFF0" stroke-opacity="0.7"/><circle class="pulse" cx="828" cy="165" r="3" fill="#89CFF0"/>
+    </g>
+    <g opacity="0.7"><text x="58" y="392" class="mono dim" font-size="10">SYS.RS / V1.0</text><text x="1142" y="392" text-anchor="end" class="mono dim" font-size="10">SIGNAL LOCKED</text></g></svg>

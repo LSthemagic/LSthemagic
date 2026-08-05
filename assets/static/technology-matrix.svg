@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="svg-title svg-desc"><title id="svg-title">Technology matrix</title><desc id="svg-desc">A connected map of backend, AI, data, product experience, and delivery technologies.</desc><defs>
+    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07101F"/>
+      <stop offset="52%" stop-color="#0B1628"/>
+      <stop offset="100%" stop-color="#10233A"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#28556F"/>
+      <stop offset="50%" stop-color="#5CA0C6"/>
+      <stop offset="100%" stop-color="#89CFF0"/>
+    </linearGradient>
+    <radialGradient id="ambientGlow" cx="78%" cy="45%" r="62%">
+      <stop offset="0%" stop-color="#5CA0C6" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#28556F" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#07101F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#5CA0C6" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5 H4" stroke="#FFFFFF" stroke-opacity="0.018" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter></defs><style>
+    .display { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .caps { letter-spacing: 2.4px; }
+    .muted { fill: #A9BED0; }
+    .dim { fill: #66839A; }
+    .accent { fill: #89CFF0; }
+    .line { stroke: #244663; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: center; }
+    .blink { animation: blink 1.15s steps(1) infinite; }
+    .flow { animation: flow 6s linear infinite; }
+    .float { animation: float 5s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+    @keyframes flow { from { stroke-dashoffset: 90; } to { stroke-dashoffset: 0; } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse, .blink, .flow, .float { animation: none !important; }
+    }
+  </style><rect width="1200" height="520" rx="22" fill="url(#backgroundGradient)"/><rect width="1200" height="520" rx="22" fill="url(#ambientGlow)"/><rect x="1" y="1" width="1198" height="518" rx="21" fill="none" stroke="#5CA0C6" stroke-opacity="0.28"/><rect width="1200" height="520" rx="22" fill="url(#microGrid)"/><rect width="1200" height="520" rx="22" fill="url(#scanlines)"/><g fill="none" stroke="#89CFF0" stroke-opacity="0.55" stroke-width="2">
+    <path d="M22 38V22H38"/>
+    <path d="M1162 22H1178V38"/>
+    <path d="M22 482V498H38"/>
+    <path d="M1162 498H1178V482"/>
+  </g><text x="48" y="48" class="mono caps" fill="#89CFF0" font-size="13" font-weight="700">TECHNOLOGY MATRIX / CONNECTED ECOSYSTEM</text>
+    <path class="flow" d="M356 172.5 C460 172.5, 500 260, 600 260" fill="none" stroke="#5CA0C6" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="7 11"/><path class="flow" d="M356 347.5 C460 347.5, 500 260, 600 260" fill="none" stroke="#5CA0C6" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="7 11"/><path class="flow" d="M844 172.5 C740 172.5, 700 260, 600 260" fill="none" stroke="#5CA0C6" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="7 11"/><path class="flow" d="M844 347.5 C740 347.5, 700 260, 600 260" fill="none" stroke="#5CA0C6" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="7 11"/><path class="flow" d="M600 412.5 C740 412.5, 700 260, 600 260" fill="none" stroke="#5CA0C6" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="7 11"/>
+    <g><circle cx="600" cy="260" r="85" fill="#10243B" stroke="#5CA0C6" stroke-opacity="0.5"/><circle class="pulse" cx="600" cy="260" r="68" fill="none" stroke="#89CFF0" stroke-opacity="0.18"/><circle cx="600" cy="260" r="48" fill="#0B1628" stroke="#89CFF0" stroke-opacity="0.4"/><text x="600" y="252" text-anchor="middle" class="mono caps" fill="#89CFF0" font-size="11">ENGINEERING</text><text x="600" y="276" text-anchor="middle" class="display" fill="#FFFFFF" font-size="18" font-weight="700">SYSTEM CORE</text></g>
+    <g><rect x="56" y="105" width="300" height="135" rx="15" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/><rect x="56" y="105" width="5" height="135" rx="2.5" fill="url(#accentGradient)"/><text x="78" y="142" class="mono caps" fill="#89CFF0" font-size="11" font-weight="700">BACKEND CORE</text><text x="336" y="142" text-anchor="end" class="mono dim" font-size="10">01</text><text x="78" y="181" class="mono muted" font-size="12">TypeScript  ·  Node.js  ·  Fastify</text><text x="78" y="208" class="mono muted" font-size="12">Java  ·  Spring Boot  ·  Python</text></g><g><rect x="56" y="280" width="300" height="135" rx="15" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/><rect x="56" y="280" width="5" height="135" rx="2.5" fill="url(#accentGradient)"/><text x="78" y="317" class="mono caps" fill="#89CFF0" font-size="11" font-weight="700">INTELLIGENCE LAYER</text><text x="336" y="317" text-anchor="end" class="mono dim" font-size="10">02</text><text x="78" y="356" class="mono muted" font-size="12">n8n  ·  OpenAI  ·  Gemini</text><text x="78" y="383" class="mono muted" font-size="12">AI Agents  ·  RAG  ·  FastAPI</text></g><g><rect x="844" y="105" width="300" height="135" rx="15" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/><rect x="844" y="105" width="5" height="135" rx="2.5" fill="url(#accentGradient)"/><text x="866" y="142" class="mono caps" fill="#89CFF0" font-size="11" font-weight="700">DATA SYSTEMS</text><text x="1124" y="142" text-anchor="end" class="mono dim" font-size="10">03</text><text x="866" y="181" class="mono muted" font-size="12">PostgreSQL  ·  MySQL  ·  Redis</text><text x="866" y="208" class="mono muted" font-size="12">MongoDB  ·  Firebase</text></g><g><rect x="844" y="280" width="300" height="135" rx="15" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/><rect x="844" y="280" width="5" height="135" rx="2.5" fill="url(#accentGradient)"/><text x="866" y="317" class="mono caps" fill="#89CFF0" font-size="11" font-weight="700">EXPERIENCE LAYER</text><text x="1124" y="317" text-anchor="end" class="mono dim" font-size="10">04</text><text x="866" y="356" class="mono muted" font-size="12">React  ·  Angular  ·  Flutter</text><text x="866" y="383" class="mono muted" font-size="12">Dart  ·  Tailwind CSS</text></g><g><rect x="450" y="345" width="300" height="135" rx="15" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/><rect x="450" y="345" width="5" height="135" rx="2.5" fill="url(#accentGradient)"/><text x="472" y="382" class="mono caps" fill="#89CFF0" font-size="11" font-weight="700">DELIVERY &amp; INFRA</text><text x="730" y="382" text-anchor="end" class="mono dim" font-size="10">05</text><text x="472" y="421" class="mono muted" font-size="12">Docker  ·  GitHub Actions  ·  AWS</text><text x="472" y="448" class="mono muted" font-size="12">GCP  ·  Linux  ·  Git</text></g>
+    <text x="48" y="495" class="mono dim" font-size="10">TOOLS ARE SELECTED BY CONTEXT — NOT COLLECTED AS TROPHIES</text></svg>

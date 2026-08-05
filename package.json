@@ -1,11 +1,17 @@
 {
   "name": "railan-engineering-system",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "description": "Dynamic command-center GitHub profile generated from public telemetry.",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "generate": "node --experimental-strip-types scripts/generate.ts",
-    "test": "node --experimental-strip-types --test tests/*.test.ts",
-    "verify": "npm run test && npm run generate"
+    "generate": "node --disable-warning=ExperimentalWarning --experimental-strip-types scripts/generate.ts",
+    "generate:live": "node --disable-warning=ExperimentalWarning --experimental-strip-types scripts/generate.ts --live",
+    "test": "node --disable-warning=ExperimentalWarning --experimental-strip-types --test tests/*.test.ts",
+    "validate": "node --disable-warning=ExperimentalWarning --experimental-strip-types scripts/validate.ts",
+    "verify": "npm run test && npm run generate && npm run validate"
   }
 }

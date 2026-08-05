@@ -1,0 +1,78 @@
+{
+  "username": "LSthemagic",
+  "name": "Railan Santana",
+  "role": "Full Stack Software Engineer",
+  "location": "Feira de Santana, Bahia, Brazil",
+  "status": "ONLINE",
+  "intro": [
+    "I build backend systems, AI-assisted automation, and full-stack products that turn complex requirements into reliable software.",
+    "My professional experience spans high-volume APIs, REST and SOAP integrations, data normalization, cloud services, workflow automation, web applications, and mobile development."
+  ],
+  "focus": [
+    "Backend Systems",
+    "AI Automation",
+    "Software Architecture",
+    "Complex Integrations"
+  ],
+  "experience": [
+    "High-performance APIs and distributed services",
+    "REST and SOAP provider integrations",
+    "Data normalization and resilient workflows",
+    "AI agents and business process automation"
+  ],
+  "mission": [
+    {
+      "code": "BUILD / 01",
+      "title": "Backend services and complex integrations",
+      "detail": "Designing APIs and services that remain clear under real-world complexity."
+    },
+    {
+      "code": "BUILD / 02",
+      "title": "AI-assisted automation workflows",
+      "detail": "Connecting LLMs, agents, and business systems to reduce manual work."
+    },
+    {
+      "code": "EXPLORE / 03",
+      "title": "Java and Spring Boot",
+      "detail": "Deepening enterprise backend patterns, testing, and service design."
+    },
+    {
+      "code": "EXPLORE / 04",
+      "title": "Flutter and mobile architecture",
+      "detail": "Building cross-platform experiences with maintainable application structure."
+    },
+    {
+      "code": "RESEARCH / 05",
+      "title": "Distributed systems and system design",
+      "detail": "Studying trade-offs behind scalable, observable, and resilient platforms."
+    }
+  ],
+  "technologyGroups": [
+    {
+      "title": "BACKEND CORE",
+      "items": ["TypeScript", "Node.js", "Fastify", "Java", "Spring Boot", "Python"]
+    },
+    {
+      "title": "INTELLIGENCE LAYER",
+      "items": ["n8n", "OpenAI", "Gemini", "AI Agents", "RAG", "FastAPI"]
+    },
+    {
+      "title": "DATA SYSTEMS",
+      "items": ["PostgreSQL", "MySQL", "Redis", "MongoDB", "Firebase"]
+    },
+    {
+      "title": "EXPERIENCE LAYER",
+      "items": ["React", "Angular", "Flutter", "Dart", "Tailwind CSS"]
+    },
+    {
+      "title": "DELIVERY & INFRA",
+      "items": ["Docker", "GitHub Actions", "AWS", "GCP", "Linux", "Git"]
+    }
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/railansantana",
+    "portfolio": "https://www.railansantana.dev.br/",
+    "email": "mailto:railansantana.dev@gmail.com",
+    "github": "https://github.com/LSthemagic"
+  }
+}

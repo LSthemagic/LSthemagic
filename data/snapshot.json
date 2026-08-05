@@ -1,0 +1,37 @@
+{
+  "user": {
+    "public_repos": 48,
+    "followers": 15
+  },
+  "repositories": [
+    { "name": "papacapim", "full_name": "LSthemagic/papacapim", "fork": false, "archived": false, "stargazers_count": 0, "language": "Dart" },
+    { "name": "project-manager-frontend", "full_name": "LSthemagic/project-manager-frontend", "fork": false, "archived": false, "stargazers_count": 0, "language": "TypeScript" },
+    { "name": "project-manager-api", "full_name": "LSthemagic/project-manager-api", "fork": false, "archived": false, "stargazers_count": 0, "language": "Java" },
+    { "name": "automation-lab", "full_name": "LSthemagic/automation-lab", "fork": false, "archived": false, "stargazers_count": 0, "language": "JavaScript" },
+    { "name": "data-api", "full_name": "LSthemagic/data-api", "fork": false, "archived": false, "stargazers_count": 0, "language": "Python" },
+    { "name": "mobile-studies", "full_name": "LSthemagic/mobile-studies", "fork": false, "archived": false, "stargazers_count": 0, "language": "Dart" },
+    { "name": "backend-studies", "full_name": "LSthemagic/backend-studies", "fork": false, "archived": false, "stargazers_count": 0, "language": "Java" },
+    { "name": "web-lab", "full_name": "LSthemagic/web-lab", "fork": false, "archived": false, "stargazers_count": 0, "language": "TypeScript" }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "repo": { "name": "LSthemagic/papacapim" },
+      "created_at": "2026-07-31T03:10:10Z",
+      "payload": { "commits": [{ "message": "feat: evolve mobile application" }] }
+    },
+    {
+      "type": "PushEvent",
+      "repo": { "name": "LSthemagic/project-manager-frontend" },
+      "created_at": "2026-07-28T14:00:00Z",
+      "payload": { "commits": [{ "message": "refactor: improve application structure" }] }
+    },
+    {
+      "type": "CreateEvent",
+      "repo": { "name": "LSthemagic/papacapim" },
+      "created_at": "2026-07-14T03:16:04Z",
+      "payload": { "ref_type": "repository" }
+    }
+  ],
+  "capturedAt": "2026-08-05T18:30:00Z"
+}

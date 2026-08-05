@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="svg-title svg-desc"><title id="svg-title">Current engineering mission</title><desc id="svg-desc">Railan Santana’s current professional and learning directions.</desc><defs>
+    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07101F"/>
+      <stop offset="52%" stop-color="#0B1628"/>
+      <stop offset="100%" stop-color="#10233A"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#28556F"/>
+      <stop offset="50%" stop-color="#5CA0C6"/>
+      <stop offset="100%" stop-color="#89CFF0"/>
+    </linearGradient>
+    <radialGradient id="ambientGlow" cx="78%" cy="45%" r="62%">
+      <stop offset="0%" stop-color="#5CA0C6" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#28556F" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#07101F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#5CA0C6" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5 H4" stroke="#FFFFFF" stroke-opacity="0.018" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter></defs><style>
+    .display { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .caps { letter-spacing: 2.4px; }
+    .muted { fill: #A9BED0; }
+    .dim { fill: #66839A; }
+    .accent { fill: #89CFF0; }
+    .line { stroke: #244663; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: center; }
+    .blink { animation: blink 1.15s steps(1) infinite; }
+    .flow { animation: flow 6s linear infinite; }
+    .float { animation: float 5s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+    @keyframes flow { from { stroke-dashoffset: 90; } to { stroke-dashoffset: 0; } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse, .blink, .flow, .float { animation: none !important; }
+    }
+  </style><rect width="1200" height="430" rx="22" fill="url(#backgroundGradient)"/><rect width="1200" height="430" rx="22" fill="url(#ambientGlow)"/><rect x="1" y="1" width="1198" height="428" rx="21" fill="none" stroke="#5CA0C6" stroke-opacity="0.28"/><rect width="1200" height="430" rx="22" fill="url(#microGrid)"/><rect width="1200" height="430" rx="22" fill="url(#scanlines)"/><g fill="none" stroke="#89CFF0" stroke-opacity="0.55" stroke-width="2">
+    <path d="M22 38V22H38"/>
+    <path d="M1162 22H1178V38"/>
+    <path d="M22 392V408H38"/>
+    <path d="M1162 408H1178V392"/>
+  </g><text x="48" y="48" class="mono caps" fill="#89CFF0" font-size="13" font-weight="700">CURRENT MISSION / ACTIVE RESEARCH</text><rect x="48" y="72" width="1104" height="318" rx="16" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/><path d="M78 121V353" stroke="#28556F" stroke-width="2"/><g><circle cx="78" cy="121" r="7" fill="#0B1628" stroke="#89CFF0" stroke-opacity="0.75"/><circle class="pulse" cx="78" cy="121" r="3" fill="#89CFF0"/><rect x="108" y="104" width="994" height="42" rx="10" fill="#0B1628" fill-opacity="0.82" stroke="#5CA0C6" stroke-opacity="0.18"/><text x="130" y="121" class="mono caps" fill="#89CFF0" font-size="10">BUILD / 01</text><text x="252" y="121" class="display" fill="#FFFFFF" font-size="14" font-weight="700">Backend services and complex integrations</text><text x="252" y="138" class="mono muted" font-size="11">Designing APIs and services that remain clear under real-world complexity.</text><text x="1078" y="130" text-anchor="end" class="mono dim" font-size="10">ACTIVE</text></g><g><circle cx="78" cy="179" r="7" fill="#0B1628" stroke="#89CFF0" stroke-opacity="0.75"/><circle class="pulse" cx="78" cy="179" r="3" fill="#89CFF0"/><rect x="108" y="162" width="994" height="42" rx="10" fill="#0B1628" fill-opacity="0.82" stroke="#5CA0C6" stroke-opacity="0.18"/><text x="130" y="179" class="mono caps" fill="#89CFF0" font-size="10">BUILD / 02</text><text x="252" y="179" class="display" fill="#FFFFFF" font-size="14" font-weight="700">AI-assisted automation workflows</text><text x="252" y="196" class="mono muted" font-size="11">Connecting LLMs, agents, and business systems to reduce manual work.</text><text x="1078" y="188" text-anchor="end" class="mono dim" font-size="10">ACTIVE</text></g><g><circle cx="78" cy="237" r="7" fill="#0B1628" stroke="#89CFF0" stroke-opacity="0.75"/><circle class="pulse" cx="78" cy="237" r="3" fill="#89CFF0"/><rect x="108" y="220" width="994" height="42" rx="10" fill="#0B1628" fill-opacity="0.82" stroke="#5CA0C6" stroke-opacity="0.18"/><text x="130" y="237" class="mono caps" fill="#89CFF0" font-size="10">EXPLORE / 03</text><text x="252" y="237" class="display" fill="#FFFFFF" font-size="14" font-weight="700">Java and Spring Boot</text><text x="252" y="254" class="mono muted" font-size="11">Deepening enterprise backend patterns, testing, and service design.</text><text x="1078" y="246" text-anchor="end" class="mono dim" font-size="10">ACTIVE</text></g><g><circle cx="78" cy="295" r="7" fill="#0B1628" stroke="#89CFF0" stroke-opacity="0.75"/><circle class="pulse" cx="78" cy="295" r="3" fill="#89CFF0"/><rect x="108" y="278" width="994" height="42" rx="10" fill="#0B1628" fill-opacity="0.82" stroke="#5CA0C6" stroke-opacity="0.18"/><text x="130" y="295" class="mono caps" fill="#89CFF0" font-size="10">EXPLORE / 04</text><text x="252" y="295" class="display" fill="#FFFFFF" font-size="14" font-weight="700">Flutter and mobile architecture</text><text x="252" y="312" class="mono muted" font-size="11">Building cross-platform experiences with maintainable application structure.</text><text x="1078" y="304" text-anchor="end" class="mono dim" font-size="10">ACTIVE</text></g><g><circle cx="78" cy="353" r="7" fill="#0B1628" stroke="#89CFF0" stroke-opacity="0.75"/><circle class="pulse" cx="78" cy="353" r="3" fill="#89CFF0"/><rect x="108" y="336" width="994" height="42" rx="10" fill="#0B1628" fill-opacity="0.82" stroke="#5CA0C6" stroke-opacity="0.18"/><text x="130" y="353" class="mono caps" fill="#89CFF0" font-size="10">RESEARCH / 05</text><text x="252" y="353" class="display" fill="#FFFFFF" font-size="14" font-weight="700">Distributed systems and system design</text><text x="252" y="370" class="mono muted" font-size="11">Studying trade-offs behind scalable, observable, and resilient platforms.</text><text x="1078" y="362" text-anchor="end" class="mono dim" font-size="10">ACTIVE</text></g><text x="48" y="414" class="mono dim" font-size="10">DIRECTION CHANGES. ENGINEERING PRINCIPLES REMAIN.</text></svg>

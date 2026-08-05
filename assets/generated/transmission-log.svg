@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="440" viewBox="0 0 550 440" role="img" aria-labelledby="svg-title svg-desc"><title id="svg-title">Public transmission log</title><desc id="svg-desc">The five most recent relevant public GitHub activities.</desc><defs>
+    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07101F"/>
+      <stop offset="52%" stop-color="#0B1628"/>
+      <stop offset="100%" stop-color="#10233A"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#28556F"/>
+      <stop offset="50%" stop-color="#5CA0C6"/>
+      <stop offset="100%" stop-color="#89CFF0"/>
+    </linearGradient>
+    <radialGradient id="ambientGlow" cx="78%" cy="45%" r="62%">
+      <stop offset="0%" stop-color="#5CA0C6" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#28556F" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#07101F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#5CA0C6" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5 H4" stroke="#FFFFFF" stroke-opacity="0.018" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter></defs><style>
+    .display { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .caps { letter-spacing: 2.4px; }
+    .muted { fill: #A9BED0; }
+    .dim { fill: #66839A; }
+    .accent { fill: #89CFF0; }
+    .line { stroke: #244663; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: center; }
+    .blink { animation: blink 1.15s steps(1) infinite; }
+    .flow { animation: flow 6s linear infinite; }
+    .float { animation: float 5s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+    @keyframes flow { from { stroke-dashoffset: 90; } to { stroke-dashoffset: 0; } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse, .blink, .flow, .float { animation: none !important; }
+    }
+  </style><rect width="550" height="440" rx="22" fill="url(#backgroundGradient)"/><rect width="550" height="440" rx="22" fill="url(#ambientGlow)"/><rect x="1" y="1" width="548" height="438" rx="21" fill="none" stroke="#5CA0C6" stroke-opacity="0.28"/><rect width="550" height="440" rx="22" fill="url(#microGrid)"/><rect width="550" height="440" rx="22" fill="url(#scanlines)"/><g fill="none" stroke="#89CFF0" stroke-opacity="0.55" stroke-width="2">
+    <path d="M18 34V18H34"/>
+    <path d="M516 18H532V34"/>
+    <path d="M18 406V422H34"/>
+    <path d="M516 422H532V406"/>
+  </g><text x="28" y="45" class="mono caps" fill="#89CFF0" font-size="13" font-weight="700">TRANSMISSION LOG</text><text x="522" y="45" text-anchor="end" class="mono dim" font-size="9">PUBLIC ACTIVITY</text><g><rect x="28" y="82" width="494" height="54" rx="10" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/><rect x="28" y="82" width="4" height="54" rx="2" fill="#89CFF0"/><text x="48" y="103" class="mono caps" fill="#89CFF0" font-size="9">JUL 31</text><text x="132" y="103" class="display" fill="#FFFFFF" font-size="12" font-weight="700">Pushed 1 commit</text><text x="132" y="122" class="mono dim" font-size="9">papacapim</text><circle class="pulse" cx="500" cy="109" r="3" fill="#75E6B5"/></g><g><rect x="28" y="149" width="494" height="54" rx="10" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/><rect x="28" y="149" width="4" height="54" rx="2" fill="#28556F"/><text x="48" y="170" class="mono caps" fill="#89CFF0" font-size="9">JUL 28</text><text x="132" y="170" class="display" fill="#FFFFFF" font-size="12" font-weight="700">Pushed 1 commit</text><text x="132" y="189" class="mono dim" font-size="9">project-manager-frontend</text><circle class="" cx="500" cy="176" r="3" fill="#66839A"/></g><g><rect x="28" y="216" width="494" height="54" rx="10" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/><rect x="28" y="216" width="4" height="54" rx="2" fill="#28556F"/><text x="48" y="237" class="mono caps" fill="#89CFF0" font-size="9">JUL 14</text><text x="132" y="237" class="display" fill="#FFFFFF" font-size="12" font-weight="700">Initialized a new repository</text><text x="132" y="256" class="mono dim" font-size="9">papacapim</text><circle class="" cx="500" cy="243" r="3" fill="#66839A"/></g><text x="28" y="421" class="mono dim" font-size="9">AUTOMATED PROFILE REFRESHES FILTERED</text></svg>

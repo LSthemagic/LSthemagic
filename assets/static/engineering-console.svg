@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="svg-title svg-desc"><title id="svg-title">Engineering console</title><desc id="svg-desc">A command-line inspired summary of Railan Santana’s engineering profile and experience.</desc><defs>
+    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07101F"/>
+      <stop offset="52%" stop-color="#0B1628"/>
+      <stop offset="100%" stop-color="#10233A"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#28556F"/>
+      <stop offset="50%" stop-color="#5CA0C6"/>
+      <stop offset="100%" stop-color="#89CFF0"/>
+    </linearGradient>
+    <radialGradient id="ambientGlow" cx="78%" cy="45%" r="62%">
+      <stop offset="0%" stop-color="#5CA0C6" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#28556F" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#07101F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#5CA0C6" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5 H4" stroke="#FFFFFF" stroke-opacity="0.018" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter></defs><style>
+    .display { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .caps { letter-spacing: 2.4px; }
+    .muted { fill: #A9BED0; }
+    .dim { fill: #66839A; }
+    .accent { fill: #89CFF0; }
+    .line { stroke: #244663; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: center; }
+    .blink { animation: blink 1.15s steps(1) infinite; }
+    .flow { animation: flow 6s linear infinite; }
+    .float { animation: float 5s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+    @keyframes flow { from { stroke-dashoffset: 90; } to { stroke-dashoffset: 0; } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse, .blink, .flow, .float { animation: none !important; }
+    }
+  </style><rect width="1200" height="320" rx="22" fill="url(#backgroundGradient)"/><rect width="1200" height="320" rx="22" fill="url(#ambientGlow)"/><rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#5CA0C6" stroke-opacity="0.28"/><rect width="1200" height="320" rx="22" fill="url(#microGrid)"/><rect width="1200" height="320" rx="22" fill="url(#scanlines)"/><g fill="none" stroke="#89CFF0" stroke-opacity="0.55" stroke-width="2">
+    <path d="M22 38V22H38"/>
+    <path d="M1162 22H1178V38"/>
+    <path d="M22 282V298H38"/>
+    <path d="M1162 298H1178V282"/>
+  </g><text x="48" y="48" class="mono caps" fill="#89CFF0" font-size="13" font-weight="700">SYSTEM PROFILE / WHOAMI</text>
+    <rect x="48" y="76" width="1104" height="198" rx="15" fill="#0B1628" fill-opacity="0.84" stroke="#5CA0C6" stroke-opacity="0.24"/>
+    <g><circle cx="75" cy="99" r="5" fill="#FF6B6B"/><circle cx="94" cy="99" r="5" fill="#FFD166"/><circle cx="113" cy="99" r="5" fill="#75E6B5"/><text x="1130" y="103" text-anchor="end" class="mono dim" font-size="10">/usr/profile/railan</text></g>
+    <line x1="648" y1="126" x2="648" y2="252" stroke="#244663"/>
+    <text x="76" y="151" class="mono" fill="#89CFF0" font-size="14">&gt; whoami<tspan class="blink">_</tspan></text>
+    <text x="76" y="188" class="display" fill="#FFFFFF" font-size="26" font-weight="700">Full Stack Software Engineer</text>
+    <text x="76" y="214" class="mono muted" font-size="12">Backend Systems  ·  AI Automation</text>
+    <text x="76" y="235" class="mono muted" font-size="12">Software Architecture  ·  Complex Integrations</text>
+    <text x="76" y="258" class="mono dim" font-size="11">Feira de Santana, Bahia, Brazil · ONLINE</text>
+    <text x="690" y="117" class="mono caps" fill="#89CFF0" font-size="11">CAPABILITY SIGNALS</text>
+    <text x="690" y="151" class="mono muted" font-size="13"><tspan fill="#89CFF0">+</tspan><tspan dx="12">High-performance APIs and distributed services</tspan></text><text x="690" y="182" class="mono muted" font-size="13"><tspan fill="#89CFF0">+</tspan><tspan dx="12">REST and SOAP provider integrations</tspan></text><text x="690" y="213" class="mono muted" font-size="13"><tspan fill="#89CFF0">+</tspan><tspan dx="12">Data normalization and resilient workflows</tspan></text><text x="690" y="244" class="mono muted" font-size="13"><tspan fill="#89CFF0">+</tspan><tspan dx="12">AI agents and business process automation</tspan></text>
+    <text x="48" y="302" class="mono dim" font-size="10">MINDSET / UNDERSTAND DEEPLY · BUILD CLEARLY · IMPROVE CONTINUOUSLY</text></svg>
