@@ -1,238 +1,250 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B1220,50:5CA0C6,100:89CFF0&text=Railan%20Santana&fontColor=FFFFFF&fontAlignY=35&fontSize=56&desc=Full%20Stack%20Developer%20|%20AI%20automation&descAlignY=50&animation=twinkling"
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B1220,45:28556F,100:89CFF0&text=Railan%20Santana&fontColor=FFFFFF&fontAlignY=34&fontSize=56&desc=Full%20Stack%20Developer%20%7C%20Backend%20%E2%80%A2%20AI%20%E2%80%A2%20Automation&descAlignY=51&descSize=18&animation=twinkling"
+    alt="Railan Santana"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=18&duration=2600&pause=800&color=FFFFFF&center=true&vCenter=true&width=900&lines=Desenvolvendo+o+futuro+do+Travel+Tech.;Especialista+em+integra%C3%A7%C3%B5es+complexas.;Transformando+processos+manuais+em+fluxos+inteligentes."
-    alt="Texto animado"
+    src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=19&duration=2800&pause=900&color=89CFF0&center=true&vCenter=true&width=900&lines=Engineering+systems+that+scale.;Automating+complexity+with+AI.;Building+software+with+purpose."
+    alt="Typing animation"
   />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/railansantana" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-5CA0C6?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://www.linkedin.com/in/railansantana">
+    <img src="https://img.shields.io/badge/LinkedIn-5CA0C6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://www.railansantana.dev.br/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Portfólio-89CFF0?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="https://www.railansantana.dev.br/">
+    <img src="https://img.shields.io/badge/Portfólio-89CFF0?style=for-the-badge&logo=vercel&logoColor=0B1220" alt="Portfólio" />
   </a>
-  <a href="mailto:railansantana.dev@gmail.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Email-89CFF0?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:railansantana.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-89CFF0?style=for-the-badge&logo=gmail&logoColor=0B1220" alt="Email" />
   </a>
-  <a href="https://github.com/LSthemagic" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="https://github.com/LSthemagic">
+    <img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=LSthemagic&label=Profile%20Views&color=89CFF0" />
-  <img src="https://img.shields.io/github/followers/LSthemagic?label=Followers&color=5CA0C6" />
-  <img src="https://img.shields.io/github/stars/LSthemagic?label=Stars&color=5CA0C6" />
+  <img src="https://komarev.com/ghpvc/?username=LSthemagic&label=PROFILE+VIEWS&color=5CA0C6&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/LSthemagic?label=FOLLOWERS&color=5CA0C6&style=flat-square" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/LSthemagic?label=STARS&color=5CA0C6&style=flat-square" alt="Stars" />
 </p>
 
-<hr/>
+<br>
 
-<h2>🧠 Sobre mim</h2>
+<h2>⚡ Engineering Profile</h2>
 
-<ul>
-  <li><b>Atuação:</b> Full Stack Developer na <b>PASS</b>, focado em <b>Node.js, Fastify e TypeScript</b>.</li>
-  <li><b>Foco Principal:</b> Soluções para <b>Travel Tech</b> (Integrações Hotelbeds, Omnibees, CVC) e normalização de dados.</li>
-  <li><b>Especialidades:</b> Arquitetura de microsserviços, APIs REST/SOAP e otimização de performance.</li>
-  <li><b>Automação & IA:</b> Criação de <b>Agentes de IA</b> e fluxos complexos com <b>n8n</b> e LLMs (OpenAI/Gemini).</li>
-  <li><b>Cloud & DevOps:</b> Deploy e infraestrutura com Docker, AWS e serviços em nuvem.</li>
-  <li><b>Projeto Pessoal:</b> Monitoramento de dados de saúde pública (Dengue) em Feira de Santana/BA.</li>
-</ul>
+<p>
+  Desenvolvedor Full Stack de Feira de Santana, Bahia, com foco em
+  <strong>backend, integrações, automação e inteligência artificial</strong>.
+</p>
 
-<pre>
+<p>
+  Atualmente trabalho construindo APIs, serviços e integrações para plataformas
+  de alta complexidade. Minha experiência profissional inclui sistemas para
+  Travel Tech, processamento e normalização de dados, automações com IA,
+  aplicações web e arquitetura orientada a serviços.
+</p>
+
+<p>
+  Gosto de entender o problema por inteiro, transformar requisitos em soluções
+  técnicas claras e construir software que seja sustentável além da primeira
+  entrega.
+</p>
+
+```ts
 const railan = {
-  cargo: "Full Stack Developer | AI & Automation Enthusiast",
-  empresa: "PASS (Travel Tech)",
-  local: "Feira de Santana, Bahia, Brasil",
-  stack_principal: [
-    "Node.js & Fastify (High Performance APIs)",
-    "TypeScript & Clean Architecture",
-    "n8n & AI Agents (Workflow Automation)",
-    "Travel APIs (Hotelbeds, Omnibees, Hotel Providers)"
+  location: "Feira de Santana, Bahia, Brazil",
+
+  role: "Full Stack Developer",
+
+  core: [
+    "Backend Engineering",
+    "Artificial Intelligence",
+    "Workflow Automation",
+    "Software Architecture"
   ],
-  missao:
-    "Simplificar a complexidade do turismo através de tecnologia robusta e automação inteligente."
+
+  experience: [
+    "REST and SOAP integrations",
+    "Distributed services",
+    "Data normalization",
+    "AI-powered workflows"
+  ],
+
+  mindset: "Understand deeply. Build clearly. Improve continuously."
 };
-</pre>
+```
 
-<hr/>
+<br>
 
-<h2>📊 Visão geral do GitHub</h2>
+<h2>🧭 What Drives My Work</h2>
 
-<p align="center">
-  <img
-    height="165"
-    src="https://github-readme-stats-mu-seven-26.vercel.app/api?username=LSthemagic&show_icons=true&hide_border=true&theme=github_dark&icon_color=89CFF0&title_color=89CFF0&count_private=true"
-    alt="GitHub Stats"
-  />
-  <img
-    height="165"
-    src="https://github-readme-stats-mu-seven-26.vercel.app/api/top-langs/?username=LSthemagic&layout=compact&hide_border=true&theme=github_dark&icon_color=89CFF0&title_color=89CFF0&count_private=true"
-    alt="Linguagens mais usadas"
-  />
-</p>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>⚙️ Backend Systems</h3>
+      <p>
+        APIs, serviços, integrações, processamento de dados e soluções preparadas
+        para evoluir com segurança.
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🤖 AI & Automation</h3>
+      <p>
+        Uso de LLMs, agentes e automações para transformar processos manuais em
+        fluxos inteligentes.
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🧠 Software Design</h3>
+      <p>
+        Arquitetura limpa, separação de responsabilidades e decisões técnicas
+        orientadas ao contexto.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<h2>🧩 Technology Ecosystem</h2>
+
+<div align="center">
+
+<h3>Languages</h3>
+
+<img src="https://skillicons.dev/icons?i=ts,js,java,python,dart" alt="Languages" />
+
+<h3>Backend</h3>
+
+<img src="https://skillicons.dev/icons?i=nodejs,spring,fastapi,express" alt="Backend technologies" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Fastify-89CFF0?style=for-the-badge&logo=fastify&logoColor=89CFF0&labelColor=0B1220" alt="Fastify" />
+<img src="https://img.shields.io/badge/REST-89CFF0?style=for-the-badge&logo=postman&logoColor=89CFF0&labelColor=0B1220" alt="REST APIs" />
+<img src="https://img.shields.io/badge/SOAP-89CFF0?style=for-the-badge&logo=xml&logoColor=89CFF0&labelColor=0B1220" alt="SOAP APIs" />
+
+<h3>Frontend & Mobile</h3>
+
+<img src="https://skillicons.dev/icons?i=react,angular,flutter,html,css" alt="Frontend technologies" />
+
+<h3>AI & Automation</h3>
+
+<img src="https://img.shields.io/badge/n8n-89CFF0?style=for-the-badge&logo=n8n&logoColor=89CFF0&labelColor=0B1220" alt="n8n" />
+<img src="https://img.shields.io/badge/OpenAI-89CFF0?style=for-the-badge&logo=openai&logoColor=89CFF0&labelColor=0B1220" alt="OpenAI" />
+<img src="https://img.shields.io/badge/Gemini-89CFF0?style=for-the-badge&logo=googlegemini&logoColor=89CFF0&labelColor=0B1220" alt="Gemini" />
+<img src="https://img.shields.io/badge/AI_Agents-89CFF0?style=for-the-badge&logo=probot&logoColor=89CFF0&labelColor=0B1220" alt="AI Agents" />
+
+<h3>Data</h3>
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase" alt="Databases" />
+
+<h3>Cloud & Engineering Tools</h3>
+
+<img src="https://skillicons.dev/icons?i=docker,aws,gcp,git,githubactions,linux,vercel" alt="Cloud and engineering tools" />
+
+</div>
+
+<br>
+
+<h2>📡 Current Signal</h2>
+
+```txt
+NOW BUILDING
+├── Backend services and complex integrations
+├── AI-assisted automation workflows
+├── Full Stack applications
+└── More reliable and maintainable systems
+
+NOW EXPLORING
+├── Advanced Java and Spring Boot
+├── Flutter and mobile development
+├── System Design
+├── Distributed architectures
+└── AI agents and RAG applications
+```
+
+<br>
+
+<h2>📊 GitHub Pulse</h2>
 
 <p align="center">
   <img
     height="170"
-    src="https://github-readme-streak-stats-l1cv.vercel.app/?user=LSthemagic&theme=github-dark-blue&exclude_days=Sun%2CSat&ring=89CFF0&fire=89CFF0&currStreakLabel=89CFF0&border=89CFF0&currStreakNum=89CFF0&sideNums=89CFF0&card_width=750&count_private=true"
-    alt="GitHub Streak"
+    src="https://github-readme-stats-mu-seven-26.vercel.app/api?username=LSthemagic&show_icons=true&hide_border=true&theme=github_dark&icon_color=89CFF0&title_color=89CFF0&count_private=true"
+    alt="GitHub statistics"
   />
-</p>
-
-<hr/>
-
-<h2>🧩 Stack tecnológica</h2>
-
-<div align="center">
-  <h4>💻 Core & Languages</h4>
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,python,java" />
-
-<h4>🧱 Backend & Frameworks</h4>
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="https://img.shields.io/badge/Fastify-89CFF0?style=for-the-badge&logo=fastify&logoColor=white&labelColor=101010" alt="Fastify" />
-  <img src="https://img.shields.io/badge/Node.js-89CFF0?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=101010" alt="Node.js" />
-  <img src="https://img.shields.io/badge/TypeScript-89CFF0?style=for-the-badge&logo=typescript&logoColor=white&labelColor=101010" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Prisma-89CFF0?style=for-the-badge&logo=prisma&logoColor=white&labelColor=101010" alt="Prisma" />
-</div>
-
-<h4>🤖 AI & Automation</h4>
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="https://img.shields.io/badge/n8n-89CFF0?style=for-the-badge&logo=n8n&logoColor=white&labelColor=101010" alt="n8n" />
-  <img src="https://img.shields.io/badge/OpenAI-89CFF0?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/Python-89CFF0?style=for-the-badge&logo=python&logoColor=white&labelColor=101010" alt="Python" />
-</div>
-
-  <h4>🗄️ Banco de dados</h4>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb" />
-
-  <h4>☁️ Cloud & DevOps</h4>
-  <img src="https://skillicons.dev/icons?i=aws,docker,git,linux,vercel" />
-</div>
-
-<hr/>
-
-<h2>📊 Distribuição de Expertise</h2>
-
-<table>
-  <tr>
-    <th align="left">Área de Atuação</th>
-    <th align="center">Proficiência</th>
-    <th align="left">Destaque Principal</th>
-  </tr>
-  <tr>
-    <td><b>Backend Development</b></td>
-    <td align="center"><b>96%</b></td>
-    <td>Node.js, Fastify, Arquitetura Limpa, SOLID</td>
-  </tr>
-  <tr>
-    <td><b>Travel Tech Integrations</b></td>
-    <td align="center"><b>92%</b></td>
-    <td>SOAP/REST, Hotelbeds, Omnibees, Normalização de Dados</td>
-  </tr>
-  <tr>
-    <td><b>AI & Automation (n8n)</b></td>
-    <td align="center"><b>88%</b></td>
-    <td>Agentes autônomos, Fluxos n8n, Integração com LLMs</td>
-  </tr>
-  <tr>
-    <td><b>DevOps & Cloud</b></td>
-    <td align="center"><b>80%</b></td>
-    <td>Docker, CI/CD, AWS, Monitoramento</td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td align="center"><b>75%</b></td>
-    <td>Dashboards, Landing Pages, React</td>
-  </tr>
-</table>
-
-<hr/>
-
-<h2>✨ Meus Diferenciais</h2>
-
-<table>
-  <tr>
-    <th align="left">Característica</th>
-    <th align="left">Aplicação Prática</th>
-  </tr>
-  <tr>
-    <td><b>Especialista em Travel Tech</b></td>
-    <td>Domínio profundo de APIs complexas do setor hoteleiro</td>
-  </tr>
-  <tr>
-    <td><b>Automação Inteligente</b></td>
-    <td>Uso de IA para eliminar tarefas repetitivas e criar "Super Agentes"</td>
-  </tr>
-  <tr>
-    <td><b>Performance Obsessiva</b></td>
-    <td>Foco em reduzir latência em integrações de alto volume</td>
-  </tr>
-  <tr>
-    <td><b>Resolução de Problemas</b></td>
-    <td>Transformo requisitos vagos em arquiteturas técnicas sólidas</td>
-  </tr>
-</table>
-
-<hr/>
-
-<h2>📈 Atividade & gráficos</h2>
-
-<p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=LSthemagic&bg_color=0B1220&color=C9D1D9&line=89CFF0&point=89CFF0&area=true&hide_border=true"
-    alt="Gráfico de atividade"
+    height="170"
+    src="https://github-readme-stats-mu-seven-26.vercel.app/api/top-langs/?username=LSthemagic&layout=compact&hide_border=true&theme=github_dark&title_color=89CFF0&count_private=true"
+    alt="Most used languages"
   />
-</p>
-
-<hr/>
-
-<h2>🎯 Foco & Interesses</h2>
-
-<pre>
-Atualmente focado em:
-- Inovação no ecossistema de Travel Tech
-- Orquestração de Agentes de IA e Automação
-- Arquitetura de Software Escalável
-
-Networking & Troca de Experiência:
-- Discussões sobre LLMs e RAG
-- Contribuições Open Source
-- Boas práticas em integrações de APIs (SOAP/REST)
-</pre>
-
-<hr/>
-
-<h2>💬✨ Vamos nos conectar</h2>
-
-<p align="center">
-  Sempre aberto para conversar sobre tecnologia e inovações no turismo:
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/railansantana" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-5CA0C6?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/LSthemagic" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.railansantana.dev.br/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Portfólio-89CFF0?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  📧 <b>Email:</b> <a href="mailto:railansantana.dev@gmail.com">railansantana.dev@gmail.com</a><br>
 </p>
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=120&text=Building%20the%20Future&fontColor=FFFFFF&fontSize=34&color=0:0B1220,50:5CA0C6,100:89CFF0"
+    width="750"
+    src="https://github-readme-streak-stats-l1cv.vercel.app/?user=LSthemagic&theme=github-dark-blue&exclude_days=Sun%2CSat&hide_border=true&ring=89CFF0&fire=89CFF0&currStreakLabel=89CFF0&currStreakNum=89CFF0&sideNums=89CFF0"
+    alt="GitHub streak"
+  />
+</p>
+
+<br>
+
+<h2>🌌 Contribution Orbit</h2>
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=LSthemagic&bg_color=0B1220&color=C9D1D9&line=89CFF0&point=FFFFFF&area=true&area_color=28556F&hide_border=true"
+    alt="GitHub activity graph"
+  />
+</p>
+
+<br>
+
+<h2>🛰 Beyond the Code</h2>
+
+<p>
+  Além do desenvolvimento profissional, tenho interesse em inteligência
+  artificial aplicada, acessibilidade, dados públicos, desenvolvimento mobile
+  e ferramentas que melhoram a experiência de desenvolvedores e usuários.
+</p>
+
+<p>
+  Estou sempre aberto a trocar experiências sobre backend, arquitetura,
+  automação, IA, integrações e construção de produtos digitais.
+</p>
+
+<br>
+
+<h2>🤝 Open Channel</h2>
+
+<p align="center">
+  <strong>
+    Aberto para conexões, colaboração e boas conversas sobre tecnologia.
+  </strong>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/railansantana">
+    <img src="https://img.shields.io/badge/LET'S_CONNECT-LinkedIn-5CA0C6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:railansantana.dev@gmail.com">
+    <img src="https://img.shields.io/badge/SEND_A_MESSAGE-Email-89CFF0?style=for-the-badge&logo=gmail&logoColor=0B1220" alt="Email" />
+  </a>
+</p>
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=150&color=0:0B1220,45:28556F,100:89CFF0&text=Build.%20Learn.%20Evolve.&fontColor=FFFFFF&fontSize=30&fontAlignY=70"
+    alt="Build. Learn. Evolve."
   />
 </p>
